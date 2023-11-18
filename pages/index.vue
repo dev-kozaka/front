@@ -1,9 +1,12 @@
 <template>
-  <Tutorial/>
+  <v-container>
+    <v-card>
+      <v-col>
+        <v-btn>ログイン</v-btn>
+      </v-col>
+      <v-col>
+        <v-btn>新規会員登録</v-btn>
+      </v-col>
+    </v-card>
+  </v-container>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
